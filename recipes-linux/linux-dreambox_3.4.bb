@@ -12,10 +12,6 @@ SRC_URI = " \
     ${KERNELORG_MIRROR}/linux/kernel/v3.x/patch-${PV}.${PATCHLEVEL}.xz;apply=yes;name=stable-patch \
     https://source.mynonpublic.com/dreambox/linux-dreambox-${PV}-${PATCHREV}.patch.xz;apply=yes;name=dream-patch \
     file://dvb_frontend-Multistream-support-3.4.patch \
-    file://0001-STV-Add-MIS-PLS-support.patch \
-    file://0002-STV-Add-SNR-Signal-report-parameters.patch \
-    file://0003-stv090x-optimized-TS-sync-control.patch \
-    file://0004-blindscan2.patch \
     file://kernel-add-support-for-gcc6.patch \
     file://kernel-add-support-for-gcc7.patch \
     file://kernel-add-support-for-gcc8.patch \
@@ -23,19 +19,7 @@ SRC_URI = " \
     file://kernel-add-support-for-gcc10.patch \
     file://kernel-add-support-for-gcc11.patch \
     file://kernel-add-support-for-gcc12.patch \
-    file://kernel-add-support-for-gcc13.patch \
-    file://kernel-add-support-for-gcc14.patch \
-    file://kernel-fake-3.4.patch \
     file://build-with-gcc12-fixes.patch \
-    file://0001-10-si2157-Silicon-Labs-Si2157-silicon-tuner-driver.patch \
-    file://0001-si2168-Silicon-Labs-Si2168-DVB-T-T2-C-demod-driver.patch \
-    file://0001-0003-cxusb-Geniatech-T230-support.patch \
-    file://0001-add-support-for-tbs5930-tbs5590.patch \
-    file://0001-linux-dreambox-3.4-add-support-for-si2183.patch \
-    file://0001-add-support-for-si2165.patch \
-    file://0001-tuners-tda18273-silicon-tuner-driver.patch \
-    file://0001-dvbs2x.patch \
-    file://0001-update-si21xx.c.patch \
     file://genksyms_fix_typeof_handling.patch \
     file://defconfig \
     file://0001-log2-give-up-on-gcc-constant-optimizations.patch \
