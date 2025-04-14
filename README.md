@@ -1,2 +1,2 @@
 # meta-dreambox
-DreamBox BSP layer for Open Vision
+DreamBox BSP layer for OpenPLI
